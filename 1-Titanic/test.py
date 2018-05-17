@@ -12,3 +12,5 @@ data_train
 data_train.info()
 data_train.describe()
 
+
+
