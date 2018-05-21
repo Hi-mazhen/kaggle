@@ -13,7 +13,6 @@ data_train = pd.read_csv("train.csv")
 # data_train.describe()
 
 # 接下来继续分析数据特征
-#    
 from sklearn.ensemble import RandomForestRegressor
 ### 使用 RandomForestClassifier 填补缺失的年龄属性
 def set_missing_ages(df):
